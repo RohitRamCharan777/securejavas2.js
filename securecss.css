@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 1, 1);
+    background: linear-gradient(rgba(0,0,0,0.7  ), rgba(0,0,0,0.7)), url(https://www.shutterstock.com/image-photo/glowing-digital-lock-surrounded-by-600nw-2517566697.jpg) no-repeat center center/cover;
+}
+.input-i{
+    margin: 20px 0;
+    position: relative;
+}
+.input-ii{
+    margin: 20px 0;
+    position: relative;
+}
+.input-i label{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 15px;
+    font-size: 16px;
+    pointer-events: none;
+    color:antiquewhite;
+    padding: 0px 5px;
+    transition: .5s;
+}
+.input-ii{
+    color: rgb(220,223,223);
+}
+.input-i input{
+    width: 360px;
+    height: 60px;
+    color: bisque;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1.2px solid rgb(220,223,223);
+    background: transparent;
+    outline: none;
+    border-radius: 5px ;
+}
+.input-i input:focus~label,
+.input-i input:valid~label{
+    top: 0;
+    background:rgb(29, 1, 1);
+    font-size: 14px;
+}
+#myb {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    background-color: #e81010;
+    color: white;
+}
+#myh{
+    color:rgb(220,223,223);
+    text-align: center;
+    justify-content: center;
+    
+
+}
+#mypnm{
+    color: rgb(19, 79, 79);
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
